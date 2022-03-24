@@ -14,6 +14,7 @@ if (numToGuess > userNum) {
     alert ("Congratulations!");
 }
 
+// Exercise 2
 let userBirthMonth = prompt(
     "What month were you born?\nType in the abbreviated month (ex: January -> Jan):"
     );
@@ -42,7 +43,3 @@ let userBirthMonth = prompt(
         default:
             alert("You gave me an incorrect month format.")   
     }
-
-
-
-// Exercise 2
